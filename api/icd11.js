@@ -1,5 +1,5 @@
 // /api/icd11.js
-export const config = { runtime: 'edge' }; // rápido e barato no Vercel Edge
+export const config = { runtime: 'edge' }; // Vercel Edge Runtime
 
 const TOKEN_URL = 'https://icdaccessmanagement.who.int/connect/token';
 const SEARCH_URL = 'https://id.who.int/icd/entity/search';
@@ -9,6 +9,23 @@ const SCOPE = 'icdapi_access';
 let cachedToken = null;
 let tokenExp = 0; // epoch em ms
 
+/* ============================
+   Utils de resposta e CORS
+   ============================ */
+function withCors(body, init = {}) {
+    const headers = new Headers(init.headers || {});
+    headers.set('Access-Control-Allow-Origin', '*');
+    headers.set('Access-Control-Allow-Methods', 'GET, OPTIONS');
+    headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    if (body && !headers.has('Content-Type')) {
+        headers.set('Content-Type', 'application/json; charset=utf-8');
+    }
+    return new Response(body, { ...init, headers });
+}
+
+/* ============================
+   OAuth Token (OMS)
+   ============================ */
 async function getToken() {
     const now = Date.now();
     if (cachedToken && now < tokenExp - 30_000) return cachedToken;
@@ -17,10 +34,7 @@ async function getToken() {
     const clientSecret = process.env.WHO_ICD_CLIENT_SECRET;
 
     if (!clientId || !clientSecret) {
-        return Response.json(
-            { error: 'config_error', details: 'Missing WHO_ICD_CLIENT_ID/WHO_ICD_CLIENT_SECRET' },
-            { status: 500 }
-        );
+        throw new Error('config_error: Missing WHO_ICD_CLIENT_ID/WHO_ICD_CLIENT_SECRET');
     }
 
     const body = new URLSearchParams({
@@ -43,69 +57,99 @@ async function getToken() {
 
     const json = await r.json();
     cachedToken = json.access_token;
-    // normalmente vem "expires_in" em segundos
-    const ttl = Number(json.expires_in || 3500) * 1000;
+    const ttl = Number(json.expires_in || 3500) * 1000; // segundos -> ms
     tokenExp = Date.now() + ttl;
     return cachedToken;
 }
 
-function withCors(body, init = {}) {
-    const headers = new Headers(init.headers || {});
-    headers.set('Access-Control-Allow-Origin', '*');
-    headers.set('Access-Control-Allow-Methods', 'GET, OPTIONS');
-    headers.set('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-    return new Response(body, { ...init, headers });
+/* ============================
+   Busca OMS + retry
+   ============================ */
+async function searchWHO({ token, q, lang, offset, limit, flatResults, useFlexisearch }) {
+    const base = new URL(SEARCH_URL);
+    base.searchParams.set('q', q);
+    base.searchParams.set('flatResults', String(flatResults));
+    base.searchParams.set('useFlexisearch', String(useFlexisearch));
+    base.searchParams.set('offset', String(offset));
+    base.searchParams.set('limit', String(limit));
+    base.searchParams.set('highlightingEnabled', 'false');
+
+    const headers = {
+        Authorization: `Bearer ${token}`,
+        Accept: 'application/json',
+        'Accept-Language': lang, // pt
+        'API-Version': 'v2',
+    };
+
+    // 1ª tentativa
+    let r = await fetch(base.toString(), { headers, cache: 'no-store' });
+
+    // Se for 5xx, tenta de novo sem flexisearch
+    if (!r.ok && r.status >= 500) {
+        const u2 = new URL(base.toString());
+        u2.searchParams.set('useFlexisearch', 'false');
+        r = await fetch(u2.toString(), { headers, cache: 'no-store' });
+    }
+
+    if (!r.ok) {
+        const txt = await r.text().catch(() => '');
+        return { ok: false, status: r.status, details: txt };
+    }
+
+    const data = await r.json().catch(() => ({}));
+    return { ok: true, data };
 }
 
+/* ============================
+   Handler
+   ============================ */
 export default async function handler(req) {
+    // Pré-flight CORS
     if (req.method === 'OPTIONS') {
         return withCors(null, { status: 204 });
+    }
+
+    if (req.method !== 'GET') {
+        return withCors(JSON.stringify({ error: 'method_not_allowed' }), { status: 405 });
     }
 
     try {
         const { searchParams } = new URL(req.url);
 
         // parâmetros aceitos do app
-        const q = searchParams.get('q') || '';
+        const q = (searchParams.get('q') || '').trim();
         const lang = (searchParams.get('lang') || 'pt').toLowerCase();
-        const offset = Number(searchParams.get('offset') || '0');
-        const limit = Math.min(Number(searchParams.get('limit') || '30'), 100);
+        const offset = Number(searchParams.get('offset') || '0') || 0;
+        const limit = Math.min(Number(searchParams.get('limit') || '30') || 30, 100);
         const flatResults = searchParams.get('flatResults') === 'true';
         const useFlexisearch = searchParams.get('useFlexisearch') === 'true';
 
-        if (!q || q.trim().length < 2) {
+        if (!q || q.length < 2) {
             return withCors(JSON.stringify({ total: 0, results: [] }), { status: 200 });
         }
 
+        // token OMS
         const token = await getToken();
 
-        const u = new URL(SEARCH_URL);
-        u.searchParams.set('q', q);
-        u.searchParams.set('flatResults', String(flatResults));
-        u.searchParams.set('useFlexisearch', String(useFlexisearch));
-        u.searchParams.set('offset', String(offset));
-        u.searchParams.set('limit', String(limit));
-        // outras flags úteis
-        u.searchParams.set('highlightingEnabled', 'false');
-
-        const r = await fetch(u.toString(), {
-            headers: {
-                Authorization: `Bearer ${token}`,
-                Accept: 'application/json',
-                'Accept-Language': lang,   // força PT
-                'API-Version': 'v2',       // versão atual da API da OMS
-            },
-            cache: 'no-store',
+        // consulta com retry inteligente
+        const resp = await searchWHO({
+            token,
+            q,
+            lang,
+            offset,
+            limit,
+            flatResults,
+            useFlexisearch,
         });
 
-        if (!r.ok) {
-            const txt = await r.text().catch(() => '');
-            // repassa erro de forma clara pro app
-            return withCors(JSON.stringify({ error: 'who_error', status: r.status, details: txt }), { status: 502 });
+        if (!resp.ok) {
+            return withCors(
+                JSON.stringify({ error: 'who_error', status: resp.status, details: resp.details || '' }),
+                { status: 502 }
+            );
         }
 
-        const data = await r.json();
-
+        const data = resp.data || {};
         // Normaliza saída (algumas respostas vêm com destinationEntities)
         const list = Array.isArray(data?.results)
             ? data.results
@@ -113,16 +157,17 @@ export default async function handler(req) {
                 ? data.destinationEntities
                 : [];
 
-        // Já retornamos no formato que seu app entende
-        return withCors(JSON.stringify({
-            total: Number(data?.total ?? list.length),
-            results: list,
-        }), { status: 200, headers: { 'Content-Type': 'application/json' } });
-
+        return withCors(
+            JSON.stringify({
+                total: Number(data?.total ?? list.length),
+                results: list,
+            }),
+            { status: 200 }
+        );
     } catch (err) {
         return withCors(
             JSON.stringify({ error: 'proxy_exception', details: String(err?.message || err) }),
-            { status: 500, headers: { 'Content-Type': 'application/json' } }
+            { status: 500 }
         );
     }
 }
