@@ -1,4 +1,5 @@
 export default async function handler(req, res) {
+    // Preflight CORS
     if (req.method === 'OPTIONS') {
         res.setHeader('Access-Control-Allow-Origin', '*');
         res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
@@ -9,6 +10,7 @@ export default async function handler(req, res) {
     try {
         const { q = '', offset = '0', limit = '30', lang = 'pt' } = req.query;
 
+        // 1) OAuth2 (sempre no servidor)
         const tokenRes = await fetch('https://icdaccessmanagement.who.int/connect/token', {
             method: 'POST',
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -26,6 +28,7 @@ export default async function handler(req, res) {
         }
         const { access_token } = await tokenRes.json();
 
+        // 2) Busca ICD-11 (MMS) com idioma e versão
         const url = new URL('https://id.who.int/icd/release/11/mms/search');
         url.searchParams.set('q', q);
         url.searchParams.set('flatResults', 'true');
@@ -36,13 +39,13 @@ export default async function handler(req, res) {
         const apiRes = await fetch(url.toString(), {
             headers: {
                 Authorization: `Bearer ${access_token}`,
-                'Accept-Language': lang,
-                'API-Version': 'v2',
+                'Accept-Language': lang, // pt / pt-BR / pt-PT
+                'API-Version': 'v2',     // obrigatório
                 Accept: 'application/json',
             },
         });
 
-        const text = await apiRes.text();
+        const text = await apiRes.text(); // pode vir vazio (204)
         res.setHeader('Access-Control-Allow-Origin', '*');
         return res.status(apiRes.status).send(text || '{"results":[],"total":0}');
     } catch (e) {
