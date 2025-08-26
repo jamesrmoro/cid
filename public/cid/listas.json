@@ -1,0 +1,4571 @@
+[
+  {
+    "list": "Mortalidade Geral  - Lista Condensada",
+    "items": [
+      {
+        "name": "Algumas doenças infecciosas e parasitárias",
+        "codes": [
+          "A00-B99"
+        ],
+        "items": [
+          {
+            "name": "Cólera",
+            "codes": [
+              "A00-A00"
+            ],
+            "items": []
+          },
+          {
+            "name": "Diarréia e gastroenterite de origem infecciosa presumível",
+            "codes": [
+              "A09-A09"
+            ],
+            "items": []
+          },
+          {
+            "name": "Outras doenças infecciosas intestinais",
+            "codes": [
+              "A01-A08"
+            ],
+            "items": []
+          },
+          {
+            "name": "Tuberculose respiratória",
+            "codes": [
+              "A15-A16"
+            ],
+            "items": []
+          },
+          {
+            "name": "Outras tuberculoses",
+            "codes": [
+              "A17-A19"
+            ],
+            "items": []
+          },
+          {
+            "name": "Peste",
+            "codes": [
+              "A20-A20"
+            ],
+            "items": []
+          },
+          {
+            "name": "Tétano",
+            "codes": [
+              "A33-A35"
+            ],
+            "items": []
+          },
+          {
+            "name": "Difteria",
+            "codes": [
+              "A36-A36"
+            ],
+            "items": []
+          },
+          {
+            "name": "Coqueluche",
+            "codes": [
+              "A37-A37"
+            ],
+            "items": []
+          },
+          {
+            "name": "Infecção meningocócica",
+            "codes": [
+              "A39-A39"
+            ],
+            "items": []
+          },
+          {
+            "name": "Septicemia",
+            "codes": [
+              "A40-A41"
+            ],
+            "items": []
+          },
+          {
+            "name": "Infecções com transmissão predominantemente sexual",
+            "codes": [
+              "A50-A64"
+            ],
+            "items": []
+          },
+          {
+            "name": "Poliomielite aguda",
+            "codes": [
+              "A80-A80"
+            ],
+            "items": []
+          },
+          {
+            "name": "Raiva",
+            "codes": [
+              "A82-A82"
+            ],
+            "items": []
+          },
+          {
+            "name": "Febre amarela",
+            "codes": [
+              "A95-A95"
+            ],
+            "items": []
+          },
+          {
+            "name": "Outras febres por arbovírus e febres hemorrágicas virais",
+            "codes": [
+              "A90-A94",
+              "A96-A99"
+            ],
+            "items": []
+          },
+          {
+            "name": "Sarampo",
+            "codes": [
+              "B05-B05"
+            ],
+            "items": []
+          },
+          {
+            "name": "Hepatite viral",
+            "codes": [
+              "B15-B19"
+            ],
+            "items": []
+          },
+          {
+            "name": "Doença pelo vírus da imunodeficiência humana [HIV]",
+            "codes": [
+              "B20-B24"
+            ],
+            "items": []
+          },
+          {
+            "name": "Malária",
+            "codes": [
+              "B50-B54"
+            ],
+            "items": []
+          },
+          {
+            "name": "Leishmaniose",
+            "codes": [
+              "B55-B55"
+            ],
+            "items": []
+          },
+          {
+            "name": "Tripanossomíase",
+            "codes": [
+              "B56-B57"
+            ],
+            "items": []
+          },
+          {
+            "name": "Esquistossomose",
+            "codes": [
+              "B65-B65"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante de algumas doenças infecciosas e parasitárias",
+            "codes": [
+              "A21-A32",
+              "A38-A38",
+              "A42-A49",
+              "A65-A79",
+              "A81-A81",
+              "A83-A89",
+              "B00-B04",
+              "B06-B09",
+              "B25-B49",
+              "B58-B64",
+              "B66-B94",
+              "B99-B99"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Neoplasias",
+        "codes": [
+          "C00-D48"
+        ],
+        "items": [
+          {
+            "name": "Neoplasia maligna do lábio, cavidade oral e faringe",
+            "codes": [
+              "C00-C14"
+            ],
+            "items": []
+          },
+          {
+            "name": "Neoplasia maligna do esôfago",
+            "codes": [
+              "C15-C15"
+            ],
+            "items": []
+          },
+          {
+            "name": "Neoplasia maligna do estômago",
+            "codes": [
+              "C16-C16"
+            ],
+            "items": []
+          },
+          {
+            "name": "Neoplasia maligna de cólon, reto e ânus",
+            "codes": [
+              "C18-C21"
+            ],
+            "items": []
+          },
+          {
+            "name": "Neoplasia maligna do fígado e das vias biliais intra-hepáticas",
+            "codes": [
+              "C22-C22"
+            ],
+            "items": []
+          },
+          {
+            "name": "Neoplasia maligna do pâncreas",
+            "codes": [
+              "C25-C25"
+            ],
+            "items": []
+          },
+          {
+            "name": "Neoplasia maligna da laringe",
+            "codes": [
+              "C32-C32"
+            ],
+            "items": []
+          },
+          {
+            "name": "Neoplasia maligna da traquéia, dos brônquios e dos pulmões",
+            "codes": [
+              "C33-C34"
+            ],
+            "items": []
+          },
+          {
+            "name": "Neoplasia maligna da pele",
+            "codes": [
+              "C43-C43"
+            ],
+            "items": []
+          },
+          {
+            "name": "Neoplasia maligna da mama",
+            "codes": [
+              "C50-C50"
+            ],
+            "items": []
+          },
+          {
+            "name": "Neoplasia maligna do colo do útero",
+            "codes": [
+              "C53-C53"
+            ],
+            "items": []
+          },
+          {
+            "name": "Neoplasia maligna de outras partes e de partes não especificadas do útero",
+            "codes": [
+              "C54-C55"
+            ],
+            "items": []
+          },
+          {
+            "name": "Neoplasia maligna do ovário",
+            "codes": [
+              "C56-C56"
+            ],
+            "items": []
+          },
+          {
+            "name": "Neoplasia maligna da próstata",
+            "codes": [
+              "C61-C61"
+            ],
+            "items": []
+          },
+          {
+            "name": "Neoplasia maligna da bexiga",
+            "codes": [
+              "C67-C67"
+            ],
+            "items": []
+          },
+          {
+            "name": "Neoplasia maligna as meninges, do encéfalo e de outras partes do sistema nervoso central",
+            "codes": [
+              "C70-C72"
+            ],
+            "items": []
+          },
+          {
+            "name": "Linfoma não-Hodgkin",
+            "codes": [
+              "C82-C85"
+            ],
+            "items": []
+          },
+          {
+            "name": "Mieloma múltiplo e neoplasias malignas de plasmócitos",
+            "codes": [
+              "C90-C90"
+            ],
+            "items": []
+          },
+          {
+            "name": "Leucemia",
+            "codes": [
+              "C91-C95"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante de neoplasias malignas",
+            "codes": [
+              "C17-C17",
+              "C23-C24",
+              "C26-C31",
+              "C37-C41",
+              "C44-C49",
+              "C51-C52",
+              "C57-C60",
+              "C62-C66",
+              "C68-C69",
+              "C73-C81",
+              "C88-C88",
+              "C96-C97"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante de neoplasias",
+            "codes": [
+              "D00-D48"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Doenças do sangue e dos órgãos hematopoéticos e alguns transtornos imunitários",
+        "codes": [
+          "D50-D89"
+        ],
+        "items": [
+          {
+            "name": "Anemias",
+            "codes": [
+              "D50-D64"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante das doenças do sangue e dos órgãos hematopoéticos e alguns transtornos imunitários",
+            "codes": [
+              "D65-D89"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Doenças endrócrinas, nutrionais e metabólicas",
+        "codes": [
+          "E00-E88"
+        ],
+        "items": [
+          {
+            "name": "Diabetes mellitus",
+            "codes": [
+              "E10-E14"
+            ],
+            "items": []
+          },
+          {
+            "name": "Desnutrição",
+            "codes": [
+              "E40-E46"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante de doenças endócrinas, nutricionais e metabólicas",
+            "codes": [
+              "E00-E07",
+              "E15-E34",
+              "E50-E88"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Transtornos mentais e comportamentais",
+        "codes": [
+          "F01-F99"
+        ],
+        "items": [
+          {
+            "name": "Transtornos mentais e comportamentais devidos ao uso de substâncias psicoativas",
+            "codes": [
+              "F10-F19"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante dos transtornos mentais e comportamentais",
+            "codes": [
+              "F01-F09",
+              "F20-F99"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Doenças do sistema nervoso",
+        "codes": [
+          "G00-G98"
+        ],
+        "items": [
+          {
+            "name": "Meningite",
+            "codes": [
+              "G03-G03"
+            ],
+            "items": []
+          },
+          {
+            "name": "Doença de Alzheimer",
+            "codes": [
+              "G30-G30"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante das doenças do sistema nervoso",
+            "codes": [
+              "G04-G25",
+              "G31-G98"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Doenças dos olhos e anexos",
+        "codes": [
+          "H00-H57"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças do ouvido e da apófise mastóide",
+        "codes": [
+          "H60-H93"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças do aparelho circulatório",
+        "codes": [
+          "I00-I99"
+        ],
+        "items": [
+          {
+            "name": "Febre reumática aguda e doença reumática crônica do coração",
+            "codes": [
+              "I00-I09"
+            ],
+            "items": []
+          },
+          {
+            "name": "Doenças hipertensivas",
+            "codes": [
+              "I10-I13"
+            ],
+            "items": []
+          },
+          {
+            "name": "Doenças isquêmicas do coração",
+            "codes": [
+              "I20-I25"
+            ],
+            "items": []
+          },
+          {
+            "name": "Outras doenças cardíacas",
+            "codes": [
+              "I26-I51"
+            ],
+            "items": []
+          },
+          {
+            "name": "Doenças cerebrovasculares",
+            "codes": [
+              "I60-I69"
+            ],
+            "items": []
+          },
+          {
+            "name": "Aterosclerose",
+            "codes": [
+              "I70-I70"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante de doenças do aparelho circulatório",
+            "codes": [
+              "I71-I99"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Doenças do aparelho circulatório",
+        "codes": [
+          "J00-J98"
+        ],
+        "items": [
+          {
+            "name": "Influenza [gripe]",
+            "codes": [
+              "J09-J11"
+            ],
+            "items": []
+          },
+          {
+            "name": "Pneumonia",
+            "codes": [
+              "J12-J18"
+            ],
+            "items": []
+          },
+          {
+            "name": "Outras infecções agudas das vias aéreas inferiores",
+            "codes": [
+              "J20-J22"
+            ],
+            "items": []
+          },
+          {
+            "name": "Doenças crônicas das vias aéreas inferiores",
+            "codes": [
+              "J40-J47"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante de doença do aparelho respiratório",
+            "codes": [
+              "J00-J06",
+              "J30-J39",
+              "J60-J98"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Doenças do aparelho digestivo",
+        "codes": [
+          "K00-K92"
+        ],
+        "items": [
+          {
+            "name": "Úlcera gástrica e duodenal",
+            "codes": [
+              "K25-K27"
+            ],
+            "items": []
+          },
+          {
+            "name": "Doenças do fígado",
+            "codes": [
+              "K70-K76"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante das doenças do aparelho digestivo",
+            "codes": [
+              "K00-K22",
+              "K28-K66",
+              "K80-K92"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Doenças da pele e de tecido subcutâneo",
+        "codes": [
+          "L00-L98"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças do sistema osteomuscular e do tecido conjuntivo",
+        "codes": [
+          "M00-M99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças do aparelho geniturinário",
+        "codes": [
+          "N00-N98"
+        ],
+        "items": [
+          {
+            "name": "Doenças glomerulares e doenças renais túbulo-intersticiais",
+            "codes": [
+              "N00-N15"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante de doenças do aparelho geniturinário",
+            "codes": [
+              "N17-N98"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Gravidez, parto e puerpério",
+        "codes": [
+          "O00-O99"
+        ],
+        "items": [
+          {
+            "name": "Gravidez que termina em aborto",
+            "codes": [
+              "O00-O07"
+            ],
+            "items": []
+          },
+          {
+            "name": "Outras mortes obstétricas diretas",
+            "codes": [
+              "O10-O92"
+            ],
+            "items": []
+          },
+          {
+            "name": "Mortes obstétricas indiretas",
+            "codes": [
+              "O98-O99"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante de gravidez, parto e puerpério",
+            "codes": [
+              "O94-O97"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Algumas afecções originadas no período perinatal",
+        "codes": [
+          "P00-P96"
+        ],
+        "items": []
+      },
+      {
+        "name": "Malformações congênitas, deformidades e anomalias cromossômicas",
+        "codes": [
+          "Q00-Q99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Sintomas, sinais e achados anormais de exames clínicos e de laboratório não classificados em outra parte",
+        "codes": [
+          "R00-R99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Causas externas de morbidade e mortalidade",
+        "codes": [
+          "V01-Y89"
+        ],
+        "items": [
+          {
+            "name": "Acidentes de transporte",
+            "codes": [
+              "V01-V99"
+            ],
+            "items": []
+          },
+          {
+            "name": "Quedas",
+            "codes": [
+              "W00-W19"
+            ],
+            "items": []
+          },
+          {
+            "name": "Afogamento e submersão acidentamente",
+            "codes": [
+              "W65-W74"
+            ],
+            "items": []
+          },
+          {
+            "name": "Exposição à fumaça, ao fogo e às chamas",
+            "codes": [
+              "X00-X09"
+            ],
+            "items": []
+          },
+          {
+            "name": "Envenenamento, intoxicação por ou exposição a substâncias nocivas",
+            "codes": [
+              "X40-X49"
+            ],
+            "items": []
+          },
+          {
+            "name": "Lesões autoprovocadas voluntariamente",
+            "codes": [
+              "X60-X84"
+            ],
+            "items": []
+          },
+          {
+            "name": "Agressões",
+            "codes": [
+              "X85-Y09"
+            ],
+            "items": []
+          },
+          {
+            "name": "Todas as outras causas externas",
+            "codes": [
+              "W20-W64",
+              "W75-W99",
+              "X10-X39",
+              "X50-X59",
+              "Y10-Y89"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Síndrome respiratória aguda grave (Severe acute respiratory syndrome) [SARS]",
+        "codes": [
+          "U04"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "list": "Mortalidade Geral - Lista Selecionada",
+    "items": [
+      {
+        "name": "Cólera",
+        "codes": [
+          "A00-A00"
+        ],
+        "items": []
+      },
+      {
+        "name": "Diarréia e gastroenterite de origem infecciosa presumível",
+        "codes": [
+          "A09-A09"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças infecciosas intestinais",
+        "codes": [
+          "A01-A08"
+        ],
+        "items": []
+      },
+      {
+        "name": "Tuberculose respiratória",
+        "codes": [
+          "A15-A16"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras tuberculoses",
+        "codes": [
+          "A17-A19"
+        ],
+        "items": []
+      },
+      {
+        "name": "Peste",
+        "codes": [
+          "A20-A20"
+        ],
+        "items": []
+      },
+      {
+        "name": "Tétano",
+        "codes": [
+          "A33-A35"
+        ],
+        "items": []
+      },
+      {
+        "name": "Difteria",
+        "codes": [
+          "A36-A36"
+        ],
+        "items": []
+      },
+      {
+        "name": "Coqueluche",
+        "codes": [
+          "A37-A37"
+        ],
+        "items": []
+      },
+      {
+        "name": "Infecção meningocócica",
+        "codes": [
+          "A39-A39"
+        ],
+        "items": []
+      },
+      {
+        "name": "Septicemia",
+        "codes": [
+          "A40-A41"
+        ],
+        "items": []
+      },
+      {
+        "name": "Infecções de transmissão predominantemente sexual",
+        "codes": [
+          "A50-A64"
+        ],
+        "items": []
+      },
+      {
+        "name": "Poliomielite aguda",
+        "codes": [
+          "A80-A80"
+        ],
+        "items": []
+      },
+      {
+        "name": "Raiva",
+        "codes": [
+          "A82-A82"
+        ],
+        "items": []
+      },
+      {
+        "name": "Febre amarela",
+        "codes": [
+          "A95-A95"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras febres por arbovírus e febres hemorrágicas virais",
+        "codes": [
+          "A90-A94",
+          "A96-A99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Sarampo",
+        "codes": [
+          "B05-B05"
+        ],
+        "items": []
+      },
+      {
+        "name": "Hepatite viral",
+        "codes": [
+          "B15-B19"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doença pelo vírus da imunodeficiência humana [HIV]",
+        "codes": [
+          "B20-B24"
+        ],
+        "items": []
+      },
+      {
+        "name": "Malária",
+        "codes": [
+          "B50-B54"
+        ],
+        "items": []
+      },
+      {
+        "name": "Leishmaniose",
+        "codes": [
+          "B55-B55"
+        ],
+        "items": []
+      },
+      {
+        "name": "Tripanossomíase",
+        "codes": [
+          "B56-B57"
+        ],
+        "items": []
+      },
+      {
+        "name": "Esquistossomose",
+        "codes": [
+          "B65-B65"
+        ],
+        "items": []
+      },
+      {
+        "name": "Restante de algumas doenças infecciosas e parasitárias",
+        "codes": [
+          "A21-A32",
+          "A38-A38",
+          "A42-A49",
+          "A65-A79",
+          "A81-A81",
+          "A83-A89",
+          "B00-B04",
+          "B06-B09",
+          "B25-B49",
+          "B58-B64",
+          "B66-B94",
+          "B99-B99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna do lábio, cavidade oral e faringe",
+        "codes": [
+          "C00-C14"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna de esôfago",
+        "codes": [
+          "C15-C15"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna do estômago",
+        "codes": [
+          "C16-C16"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna do cólon, reto e ânus",
+        "codes": [
+          "C18-C21"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna do fígado e da vias biliares intra-hepáticas",
+        "codes": [
+          "C22-C22"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna do pâncreas",
+        "codes": [
+          "C25-C25"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna da laringe",
+        "codes": [
+          "C32-C32"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna da traquéia, dos brônquios e dos pulmões",
+        "codes": [
+          "C33-C34"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna da pele",
+        "codes": [
+          "C43-C43"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna da mama",
+        "codes": [
+          "C50-C50"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna do colo do útero",
+        "codes": [
+          "C53-C53"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna de outras partes e de partes não especificadas do útero",
+        "codes": [
+          "C54-C55"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna do ovário",
+        "codes": [
+          "C56-C56"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna da próstata",
+        "codes": [
+          "C61-C61"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna da bexiga",
+        "codes": [
+          "C67-C67"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna das meninges, do encéfalo e de outras partes do sistema nervoso central",
+        "codes": [
+          "C70-C72"
+        ],
+        "items": []
+      },
+      {
+        "name": "Linfoma não-Hodgkin",
+        "codes": [
+          "C82-C85"
+        ],
+        "items": []
+      },
+      {
+        "name": "Mieloma múltiplo e neoplasias malignas de plasmócitos",
+        "codes": [
+          "C90-C90"
+        ],
+        "items": []
+      },
+      {
+        "name": "Leucemia",
+        "codes": [
+          "C91-C95"
+        ],
+        "items": []
+      },
+      {
+        "name": "Restante de neoplasias malignas",
+        "codes": [
+          "C17-C17",
+          "C23-C24",
+          "C26-C31",
+          "C37-C41",
+          "C44-C49",
+          "C51-C52",
+          "C57-C60",
+          "C62-C66",
+          "C68-C69",
+          "C73-C81",
+          "C88-C88",
+          "C96-C97"
+        ],
+        "items": []
+      },
+      {
+        "name": "Anemias",
+        "codes": [
+          "D50-D64"
+        ],
+        "items": []
+      },
+      {
+        "name": "Diabetes mellitus",
+        "codes": [
+          "E10-E14"
+        ],
+        "items": []
+      },
+      {
+        "name": "Desnutrição",
+        "codes": [
+          "E40-E46"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças mentais e comportamentais devidas ao uso de substâncias psicoativas",
+        "codes": [
+          "F10-F19"
+        ],
+        "items": []
+      },
+      {
+        "name": "Meningite",
+        "codes": [
+          "G00-G03"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doença de Alzheimer",
+        "codes": [
+          "G30-G30"
+        ],
+        "items": []
+      },
+      {
+        "name": "Febre reumática aguda e doença reumática cardíaca crônica",
+        "codes": [
+          "I00-I09"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças hipertensivas",
+        "codes": [
+          "I10-I13"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças isquêmicas do coração",
+        "codes": [
+          "I20-I25"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças cardíacas",
+        "codes": [
+          "I26-I51"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças cerebrovasculares",
+        "codes": [
+          "I60-I69"
+        ],
+        "items": []
+      },
+      {
+        "name": "Aterosclerose",
+        "codes": [
+          "I70-I70"
+        ],
+        "items": []
+      },
+      {
+        "name": "Restante de doenças do aparelho circulatório",
+        "codes": [
+          "I71-I99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Influenza [gripe]",
+        "codes": [
+          "J09-J11"
+        ],
+        "items": []
+      },
+      {
+        "name": "Pneumonia",
+        "codes": [
+          "J12-J18"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras infecções agudas das vias aéreas inferiores",
+        "codes": [
+          "J20-J22"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças crônicas das vias aéreas inferiores",
+        "codes": [
+          "J40-J47"
+        ],
+        "items": []
+      },
+      {
+        "name": "Restante de doenças do aparelho respiratório",
+        "codes": [
+          "J00-J06",
+          "J30-J39",
+          "J60-J98"
+        ],
+        "items": []
+      },
+      {
+        "name": "Úlcera gástrica e duodenal",
+        "codes": [
+          "K25-K27"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças do fígado",
+        "codes": [
+          "K70-K76"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças glomerulares e doenças renais túbulo-intersticiais",
+        "codes": [
+          "N00-N15"
+        ],
+        "items": []
+      },
+      {
+        "name": "Gravidez que termina em aborto",
+        "codes": [
+          "O00-O07"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras mortes obstétricas diretas",
+        "codes": [
+          "O10-O92"
+        ],
+        "items": []
+      },
+      {
+        "name": "Mortes obstétricas indiretas",
+        "codes": [
+          "O98-O99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Algumas afecções originadas no período perinatal",
+        "codes": [
+          "P00-P96"
+        ],
+        "items": []
+      },
+      {
+        "name": "Malformações congênitas, deformidades e anomalias cromossômicas",
+        "codes": [
+          "Q00-Q99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Sintomas, sinais e achados anormais de exames clínicos e de laboratório não classificados em outra parte",
+        "codes": [
+          "R00-R99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Todas as outras doenças",
+        "codes": [
+          "D00-D48",
+          "D65-D89",
+          "E00-E07",
+          "E15-E34",
+          "E50-E88",
+          "F01-F09",
+          "F20-F99",
+          "G04-G25",
+          "G31-G98",
+          "H00-H93",
+          "K00-K22",
+          "K28-K66",
+          "K80-K92",
+          "L00-L98",
+          "M00-M99",
+          "N17-N98",
+          "O94-O97"
+        ],
+        "items": []
+      },
+      {
+        "name": "Acidentes de transporte",
+        "codes": [
+          "V01-V99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Quedas",
+        "codes": [
+          "W00-W19"
+        ],
+        "items": []
+      },
+      {
+        "name": "Afogamento e submersão acidentais",
+        "codes": [
+          "W65-W74"
+        ],
+        "items": []
+      },
+      {
+        "name": "Exposição à fumaça, ao fogo e às chamas",
+        "codes": [
+          "X00-X09"
+        ],
+        "items": []
+      },
+      {
+        "name": "Envenenamento (intoxicação) acidental por ou exposição a substâncias nocivas",
+        "codes": [
+          "X40-X49"
+        ],
+        "items": []
+      },
+      {
+        "name": "Lesões autoprovocadas voluntariamente",
+        "codes": [
+          "X60-X84"
+        ],
+        "items": []
+      },
+      {
+        "name": "Agressões",
+        "codes": [
+          "X85-Y09"
+        ],
+        "items": []
+      },
+      {
+        "name": "Todas as outras causas externas",
+        "codes": [
+          "W20-W64",
+          "W75-W99",
+          "X10-X39",
+          "X50-X59",
+          "Y10-Y89"
+        ],
+        "items": []
+      },
+      {
+        "name": "Síndrome respiratória aguda grave (Severe acute respiratory syndrome) [SARS]",
+        "codes": [
+          "U04"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "list": "Mortalidade infantil e da criança - Lista condensada",
+    "items": [
+      {
+        "name": "Algumas doenças infecciosas e parasitárias",
+        "codes": [
+          "A00-B99"
+        ],
+        "items": [
+          {
+            "name": "Diarréia e gastroenterite de origem infecciosa presumível",
+            "codes": [
+              "A09-A09"
+            ],
+            "items": []
+          },
+          {
+            "name": "Outras doenças infecciosas intestinais",
+            "codes": [
+              "A00-A08"
+            ],
+            "items": []
+          },
+          {
+            "name": "Tuberculose",
+            "codes": [
+              "A15-A19"
+            ],
+            "items": []
+          },
+          {
+            "name": "Tétano",
+            "codes": [
+              "A33-A33",
+              "A35-A35"
+            ],
+            "items": []
+          },
+          {
+            "name": "Difteria",
+            "codes": [
+              "A36-A36"
+            ],
+            "items": []
+          },
+          {
+            "name": "Coqueluche",
+            "codes": [
+              "A37-A37"
+            ],
+            "items": []
+          },
+          {
+            "name": "Infecção meningocócica",
+            "codes": [
+              "A39-A39"
+            ],
+            "items": []
+          },
+          {
+            "name": "Septicemia",
+            "codes": [
+              "A40-A41"
+            ],
+            "items": []
+          },
+          {
+            "name": "Poliomielite aguda",
+            "codes": [
+              "A80-A80"
+            ],
+            "items": []
+          },
+          {
+            "name": "Sarampo",
+            "codes": [
+              "B05-B05"
+            ],
+            "items": []
+          },
+          {
+            "name": "Doença pelo vírus da imunodeficiência humana [HIV]",
+            "codes": [
+              "B20-B24"
+            ],
+            "items": []
+          },
+          {
+            "name": "Outras doenças virais",
+            "codes": [
+              "A81-B04",
+              "B06-B19",
+              "B25-B34"
+            ],
+            "items": []
+          },
+          {
+            "name": "Malária",
+            "codes": [
+              "B50-B54"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante de algumas doenças infecciosas e parasitárias",
+            "codes": [
+              "A20-A32",
+              "A38-A38",
+              "A42-A79",
+              "B35-B49",
+              "B55-B94",
+              "B99-B99"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Neoplasias",
+        "codes": [
+          "C00-D48"
+        ],
+        "items": [
+          {
+            "name": "Leucemia",
+            "codes": [
+              "C91-C95"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante de neoplasias malignas",
+            "codes": [
+              "C00-C90",
+              "C96-C97"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante de neoplasias",
+            "codes": [
+              "D00-D48"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Doenças do sangue e dos órgãos hematopoéticos e alguns transtornos imunitários",
+        "codes": [
+          "D50-D89"
+        ],
+        "items": [
+          {
+            "name": "Anemias",
+            "codes": [
+              "D50-D64"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante de doenças do sangue e órgãos hematopoéticos e alguns transtornos imunitários",
+            "codes": [
+              "D65-D89"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Doenças endócrinas, nutricionais e metabólicas",
+        "codes": [
+          "E00-E88"
+        ],
+        "items": [
+          {
+            "name": "Desnutrição e outras deficiências nutricionais",
+            "codes": [
+              "E40-E64"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante de doenças endócrinas, nutricionais e metabólicas",
+            "codes": [
+              "E00-E34",
+              "E65-E88"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Doenças do sistema nervoso",
+        "codes": [
+          "G00-G98"
+        ],
+        "items": [
+          {
+            "name": "Meningite",
+            "codes": [
+              "G00-G00",
+              "G03-G03"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante de doenças do sistema nervoso",
+            "codes": [
+              "G04-G98"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Doenças do ouvido e da apófise mastóide",
+        "codes": [
+          "H60-H93"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças do aparelho circulatório",
+        "codes": [
+          "I00-I99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças do aparelho respiratório",
+        "codes": [
+          "J00-J98"
+        ],
+        "items": [
+          {
+            "name": "Pneumonia",
+            "codes": [
+              "J12-J18"
+            ],
+            "items": []
+          },
+          {
+            "name": "Outras infecções respiratórias agudas",
+            "codes": [
+              "J00-J11",
+              "J20-J22"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante das doenças do aparelho respiratório",
+            "codes": [
+              "J30-J98"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Doenças do aparelho digestivo",
+        "codes": [
+          "K00-K92"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças do aparelho geniturinário",
+        "codes": [
+          "N00-N99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Algumas afecções originadas no período perinatal",
+        "codes": [
+          "P00-P96"
+        ],
+        "items": [
+          {
+            "name": "Feto e recém-nascido afetados por fatores maternos e por complicações da gravidez, do trabalho de parto e do parto",
+            "codes": [
+              "P00-P04"
+            ],
+            "items": []
+          },
+          {
+            "name": "Transtornos relacionados à duração da gravidez e ao crescimento fetal",
+            "codes": [
+              "P05-P08"
+            ],
+            "items": []
+          },
+          {
+            "name": "Traumatismo ocorrido durante o nascimento",
+            "codes": [
+              "P10-P15"
+            ],
+            "items": []
+          },
+          {
+            "name": "Hipóxia intrauterina e asfixia ao nascer",
+            "codes": [
+              "P20-P21"
+            ],
+            "items": []
+          },
+          {
+            "name": "Desconforto (angústia) respiratório(a) do recém-nascido",
+            "codes": [
+              "P22-P22"
+            ],
+            "items": []
+          },
+          {
+            "name": "Pneumonia congênita",
+            "codes": [
+              "P23-P23"
+            ],
+            "items": []
+          },
+          {
+            "name": "Outras afecções respiratórias do recém-nascido",
+            "codes": [
+              "P24-P28"
+            ],
+            "items": []
+          },
+          {
+            "name": "Septicemia bacteriana do recém-nascido",
+            "codes": [
+              "P36-P36"
+            ],
+            "items": []
+          },
+          {
+            "name": "Onfalite do recém-nascido com ou sem hemorragia leve",
+            "codes": [
+              "P38-P38"
+            ],
+            "items": []
+          },
+          {
+            "name": "Transtornos hemorrágicos e hematológicos do feto ou do recém-nascido",
+            "codes": [
+              "P50-P61"
+            ],
+            "items": []
+          },
+          {
+            "name": "Restante das afecções perinatais",
+            "codes": [
+              "P29-P29",
+              "P35-P35",
+              "P37-P37",
+              "P39-P39",
+              "P70-P96"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Malformações congênitas, deformidades e anomalias cromossômicas",
+        "codes": [
+          "Q00-Q99"
+        ],
+        "items": [
+          {
+            "name": "Hidrocefalia e espinha bífida congênitas",
+            "codes": [
+              "Q03-Q03",
+              "Q05-Q05"
+            ],
+            "items": []
+          },
+          {
+            "name": "Outras malformações congênitas do sistema nervoso",
+            "codes": [
+              "Q00-Q02",
+              "Q04-Q04",
+              "Q06-Q07"
+            ],
+            "items": []
+          },
+          {
+            "name": "Malformações congênitas do coração",
+            "codes": [
+              "Q20-Q24"
+            ],
+            "items": []
+          },
+          {
+            "name": "Outras malformações congênitas do aparelho circulatório",
+            "codes": [
+              "Q25-Q28"
+            ],
+            "items": []
+          },
+          {
+            "name": "Síndrome de Down e outras anomalias cromossômicas",
+            "codes": [
+              "Q90-Q99"
+            ],
+            "items": []
+          },
+          {
+            "name": "Outras malformações congênitas",
+            "codes": [
+              "Q10-Q18",
+              "Q30-Q89"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Sintomas, sinais e achados anormais de exames clínicos e de laboratório, não classificados em outra parte",
+        "codes": [
+          "R00-R99"
+        ],
+        "items": [
+          {
+            "name": "Síndrome da morte súbita na infância",
+            "codes": [
+              "R95-R95"
+            ],
+            "items": []
+          },
+          {
+            "name": "Outros sintomas, sinais e achados anormais de exames clínicos e de laboratório, não classificados em outra parte",
+            "codes": [
+              "R00-R94",
+              "R96-R99"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Todas as outras doenças",
+        "codes": [
+          "F01-F99",
+          "H00-H59",
+          "L00-L98",
+          "M00-M99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Causas externas de morbidade e mortalidade",
+        "codes": [
+          "V01-Y89"
+        ],
+        "items": [
+          {
+            "name": "Acidentes de transporte",
+            "codes": [
+              "V01-V99"
+            ],
+            "items": []
+          },
+          {
+            "name": "Afogamento e submersão acidentais",
+            "codes": [
+              "W65-W74"
+            ],
+            "items": []
+          },
+          {
+            "name": "Outros riscos acidentais à respiração",
+            "codes": [
+              "W75-W84"
+            ],
+            "items": []
+          },
+          {
+            "name": "Exposição à fumaça, ao fogo e às chamas",
+            "codes": [
+              "X00-X09"
+            ],
+            "items": []
+          },
+          {
+            "name": "Envenenamento (intoxicação) acidental por ou exposição a substâncias nocivas",
+            "codes": [
+              "X40-X49"
+            ],
+            "items": []
+          },
+          {
+            "name": "Agressões",
+            "codes": [
+              "X85-Y09"
+            ],
+            "items": []
+          },
+          {
+            "name": "Todas as outras causas externas",
+            "codes": [
+              "W00-W64",
+              "W85-W99",
+              "X10-X39",
+              "X50-X84",
+              "Y10-Y89"
+            ],
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Síndrome respiratória aguda grave (Severe acute respiratory syndrome) [SARS]",
+        "codes": [
+          "U04"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "list": "Mortalidade infantil e da criança - Lista selecionada",
+    "items": [
+      {
+        "name": "Diarréia e gastroenterite de origem presumível",
+        "codes": [
+          "A09-A09"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças infecciosas intestinais",
+        "codes": [
+          "A00-A08"
+        ],
+        "items": []
+      },
+      {
+        "name": "Tuberculose",
+        "codes": [
+          "A15-A19"
+        ],
+        "items": []
+      },
+      {
+        "name": "Tétano",
+        "codes": [
+          "A33-A33",
+          "A35-A35"
+        ],
+        "items": []
+      },
+      {
+        "name": "Difteria",
+        "codes": [
+          "A36-A36"
+        ],
+        "items": []
+      },
+      {
+        "name": "Coqueluche",
+        "codes": [
+          "A37-A37"
+        ],
+        "items": []
+      },
+      {
+        "name": "Infecção meningocócica",
+        "codes": [
+          "A39-A39"
+        ],
+        "items": []
+      },
+      {
+        "name": "Septicemia",
+        "codes": [
+          "A40-A41"
+        ],
+        "items": []
+      },
+      {
+        "name": "Poliomielite aguda",
+        "codes": [
+          "A80-A80"
+        ],
+        "items": []
+      },
+      {
+        "name": "Sarampo",
+        "codes": [
+          "B05-B05"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doença pelo vírus da imunodeficiência humana [HIV]",
+        "codes": [
+          "B20-B24"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças virais",
+        "codes": [
+          "A81-B04",
+          "B06-B19",
+          "B25-B34"
+        ],
+        "items": []
+      },
+      {
+        "name": "Malária",
+        "codes": [
+          "B50-B54"
+        ],
+        "items": []
+      },
+      {
+        "name": "Restante de algumas doenças infecciosas e parasitárias",
+        "codes": [
+          "A20-A32",
+          "A38-A38",
+          "A42-A79",
+          "B35-B49",
+          "B55-B94",
+          "B99-B99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Leucemia",
+        "codes": [
+          "C91-C95"
+        ],
+        "items": []
+      },
+      {
+        "name": "Restante de neoplasias malignas",
+        "codes": [
+          "C00-C90",
+          "C96-C97"
+        ],
+        "items": []
+      },
+      {
+        "name": "Anemias",
+        "codes": [
+          "D50-D64"
+        ],
+        "items": []
+      },
+      {
+        "name": "Restante de doenças do sangue e dos órgãos hematopoéticos e alguns transtornos imunitários",
+        "codes": [
+          "D65-D89"
+        ],
+        "items": []
+      },
+      {
+        "name": "Desnutrição e outras deficiências nutricionais",
+        "codes": [
+          "E40-E64"
+        ],
+        "items": []
+      },
+      {
+        "name": "Meningite",
+        "codes": [
+          "G00-G00",
+          "G03-G03"
+        ],
+        "items": []
+      },
+      {
+        "name": "Restante de doenças do sistema nervoso",
+        "codes": [
+          "G04-G98"
+        ],
+        "items": []
+      },
+      {
+        "name": "Pneumonia",
+        "codes": [
+          "J12-J18"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras infecções respiratórias agudas",
+        "codes": [
+          "J00-J11",
+          "J20-J22"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças do aparelho digestivo",
+        "codes": [
+          "K00-K92"
+        ],
+        "items": []
+      },
+      {
+        "name": "Feto e recém-nascido afetado por fatores maternos e por complicações da gravidez, do trabalho de parto e do parto",
+        "codes": [
+          "P00-P04"
+        ],
+        "items": []
+      },
+      {
+        "name": "Trantornos relacionados à duração da gestação e do crescimento fetal",
+        "codes": [
+          "P05-P08"
+        ],
+        "items": []
+      },
+      {
+        "name": "Traumatismo ocorrido durante o nascimento",
+        "codes": [
+          "P10-P15"
+        ],
+        "items": []
+      },
+      {
+        "name": "Hipóxia intrauterina e asfixia ao nascer",
+        "codes": [
+          "P20-P21"
+        ],
+        "items": []
+      },
+      {
+        "name": "Desconforto (angústia) respiratório(a) do recém-nascido",
+        "codes": [
+          "P22-P22"
+        ],
+        "items": []
+      },
+      {
+        "name": "Pneumonia congênita",
+        "codes": [
+          "P23-P23"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras afecções respiratórias do recém-nascido",
+        "codes": [
+          "P24-P28"
+        ],
+        "items": []
+      },
+      {
+        "name": "Septicemia bacteriana do recém-nascido",
+        "codes": [
+          "P36-P36"
+        ],
+        "items": []
+      },
+      {
+        "name": "Onfalite do recém-nascido com ou sem hemorragia leve",
+        "codes": [
+          "P38-P38"
+        ],
+        "items": []
+      },
+      {
+        "name": "Transtornos hemorrágicos e hematológicos do feto e do recém-nascido",
+        "codes": [
+          "P50-P61"
+        ],
+        "items": []
+      },
+      {
+        "name": "Restante de afecções perinatais",
+        "codes": [
+          "P29-P29",
+          "P35-P35",
+          "P37-P37",
+          "P39-P39",
+          "P70-P96"
+        ],
+        "items": []
+      },
+      {
+        "name": "Hidrocefalia e espinha bífida congênitas",
+        "codes": [
+          "Q03-Q03",
+          "Q05-Q05"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras malformações congênitas do sistema nervoso",
+        "codes": [
+          "Q00-Q02",
+          "Q04-Q04",
+          "Q06-Q07"
+        ],
+        "items": []
+      },
+      {
+        "name": "Malformações congênitas do coração",
+        "codes": [
+          "Q20-Q24"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras malformações congênitas do aparelho circulatório",
+        "codes": [
+          "Q25-Q28"
+        ],
+        "items": []
+      },
+      {
+        "name": "Síndrome de Down e outras anomalias cromossômicas",
+        "codes": [
+          "Q90-Q99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras malformações congênitas",
+        "codes": [
+          "Q10-Q18",
+          "Q30-Q89"
+        ],
+        "items": []
+      },
+      {
+        "name": "Síndrome da morte súbita na infância",
+        "codes": [
+          "R95-R95"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outros sintomas, sinais e achados anormais de exames clínicos e de laboratório, não classificados em outra parte",
+        "codes": [
+          "R00-R94",
+          "R96-R99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Todas as outras doenças",
+        "codes": [
+          "D00-D48",
+          "E00-E34",
+          "E65-E88",
+          "F01-F99",
+          "H00-H95",
+          "I00-I99",
+          "J30-J98",
+          "L00-L98",
+          "M00-M99",
+          "N00-N98"
+        ],
+        "items": []
+      },
+      {
+        "name": "Acidentes de transporte",
+        "codes": [
+          "V01-V99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Afogamento e submersão acidentais",
+        "codes": [
+          "W65-W74"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outros riscos acidentais à respiração",
+        "codes": [
+          "W75-W84"
+        ],
+        "items": []
+      },
+      {
+        "name": "Exposição à fumaça, ao fogo e as chamas",
+        "codes": [
+          "X00-X09"
+        ],
+        "items": []
+      },
+      {
+        "name": "Envenenamento (intoxicação) acidental por ou exposição a substâncias nocivas",
+        "codes": [
+          "X40-X49"
+        ],
+        "items": []
+      },
+      {
+        "name": "Agressões",
+        "codes": [
+          "X85-Y09"
+        ],
+        "items": []
+      },
+      {
+        "name": "Todas as outras causas externas",
+        "codes": [
+          "W00-W64",
+          "W85-W99",
+          "X10-X39",
+          "X50-X84",
+          "Y10-Y89"
+        ],
+        "items": []
+      },
+      {
+        "name": "Síndrome respiratória aguda grave (Severe acute respiratory syndrome) [SARS]",
+        "codes": [
+          "U04"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "list": "Morbidade",
+    "items": [
+      {
+        "name": "Cólera",
+        "codes": [
+          "A00-A00"
+        ],
+        "items": []
+      },
+      {
+        "name": "Febres tifóide e paratifóide",
+        "codes": [
+          "A01-A01"
+        ],
+        "items": []
+      },
+      {
+        "name": "Shiguelose",
+        "codes": [
+          "A03-A03"
+        ],
+        "items": []
+      },
+      {
+        "name": "Amebíase",
+        "codes": [
+          "A06-A06"
+        ],
+        "items": []
+      },
+      {
+        "name": "Diarréia e gastroenterite de origem infecciosa presumível",
+        "codes": [
+          "A09-A09"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças infecciosas intestinais",
+        "codes": [
+          "A02-A02",
+          "A04-A05",
+          "A07-A08"
+        ],
+        "items": []
+      },
+      {
+        "name": "Tuberculose respiratória",
+        "codes": [
+          "A15-A16"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras tuberculoses",
+        "codes": [
+          "A17-A19"
+        ],
+        "items": []
+      },
+      {
+        "name": "Peste",
+        "codes": [
+          "A20-A20"
+        ],
+        "items": []
+      },
+      {
+        "name": "Brucelose",
+        "codes": [
+          "A23-A23"
+        ],
+        "items": []
+      },
+      {
+        "name": "Hanseníase [lepra]",
+        "codes": [
+          "A30-A30"
+        ],
+        "items": []
+      },
+      {
+        "name": "Tétano neonatal",
+        "codes": [
+          "A33-A33"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outros tétanos",
+        "codes": [
+          "A34-A35"
+        ],
+        "items": []
+      },
+      {
+        "name": "Difteria",
+        "codes": [
+          "A36-A36"
+        ],
+        "items": []
+      },
+      {
+        "name": "Coqueluche",
+        "codes": [
+          "A37-A37"
+        ],
+        "items": []
+      },
+      {
+        "name": "Infecção meningocócica",
+        "codes": [
+          "A39-A39"
+        ],
+        "items": []
+      },
+      {
+        "name": "Septicemia",
+        "codes": [
+          "A40-A41"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças bacterianas",
+        "codes": [
+          "A21-A22",
+          "A24-A28",
+          "A31-A32",
+          "A38-A38",
+          "A42-A49"
+        ],
+        "items": []
+      },
+      {
+        "name": "Sífilis congênita",
+        "codes": [
+          "A50-A50"
+        ],
+        "items": []
+      },
+      {
+        "name": "Sífilis precoce",
+        "codes": [
+          "A51-A51"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras sífilis",
+        "codes": [
+          "A52-A53"
+        ],
+        "items": []
+      },
+      {
+        "name": "Infecção gonocócica",
+        "codes": [
+          "A54-A54"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças por clamídias transmitidas por via sexual",
+        "codes": [
+          "A55-A56"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras infecções com transmissão predominantemente sexual",
+        "codes": [
+          "A57-A64"
+        ],
+        "items": []
+      },
+      {
+        "name": "Febres recorrentes",
+        "codes": [
+          "A68-A68"
+        ],
+        "items": []
+      },
+      {
+        "name": "Tracoma",
+        "codes": [
+          "A71-A71"
+        ],
+        "items": []
+      },
+      {
+        "name": "Tifo exantemático",
+        "codes": [
+          "A75-A75"
+        ],
+        "items": []
+      },
+      {
+        "name": "Poliomielite aguda",
+        "codes": [
+          "A80-A80"
+        ],
+        "items": []
+      },
+      {
+        "name": "Raiva",
+        "codes": [
+          "A82-A82"
+        ],
+        "items": []
+      },
+      {
+        "name": "Encefalite viral",
+        "codes": [
+          "A83-A86"
+        ],
+        "items": []
+      },
+      {
+        "name": "Febre amarela",
+        "codes": [
+          "A95-A95"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras febre por arbovírus e febres hemorrágicas por vírus",
+        "codes": [
+          "A90-A94",
+          "A96-A99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Infecções pelo vírus do herpes",
+        "codes": [
+          "B00-B00"
+        ],
+        "items": []
+      },
+      {
+        "name": "Varicela e herpes zoster",
+        "codes": [
+          "B01-B02"
+        ],
+        "items": []
+      },
+      {
+        "name": "Sarampo",
+        "codes": [
+          "B05-B05"
+        ],
+        "items": []
+      },
+      {
+        "name": "Rubéola",
+        "codes": [
+          "B06-B06"
+        ],
+        "items": []
+      },
+      {
+        "name": "Hepatite aguda B",
+        "codes": [
+          "B16-B16"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras hepatites virais",
+        "codes": [
+          "B15-B15",
+          "B17-B19"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doença pelo vírus da imunodeficiência humana [HIV]",
+        "codes": [
+          "B20-B24"
+        ],
+        "items": []
+      },
+      {
+        "name": "Caxumba [parotidite epidêmica]",
+        "codes": [
+          "B26-B26"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças virais",
+        "codes": [
+          "A81-A81",
+          "A87-A89",
+          "B03-B04",
+          "B07-B09",
+          "B25-B25",
+          "B27-B34"
+        ],
+        "items": []
+      },
+      {
+        "name": "Micoses",
+        "codes": [
+          "B35-B49"
+        ],
+        "items": []
+      },
+      {
+        "name": "Malária",
+        "codes": [
+          "B50-B54"
+        ],
+        "items": []
+      },
+      {
+        "name": "Leishmaniose",
+        "codes": [
+          "B55-B55"
+        ],
+        "items": []
+      },
+      {
+        "name": "Tripanossomíase",
+        "codes": [
+          "B56-B57"
+        ],
+        "items": []
+      },
+      {
+        "name": "Esquistossomose",
+        "codes": [
+          "B65-B65"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras infestações por trematódeos",
+        "codes": [
+          "B66-B66"
+        ],
+        "items": []
+      },
+      {
+        "name": "Equinococose",
+        "codes": [
+          "B67-B67"
+        ],
+        "items": []
+      },
+      {
+        "name": "Dracunculíase",
+        "codes": [
+          "B72-B72"
+        ],
+        "items": []
+      },
+      {
+        "name": "Oncocercose",
+        "codes": [
+          "B73-B73"
+        ],
+        "items": []
+      },
+      {
+        "name": "Filariose",
+        "codes": [
+          "B74-B74"
+        ],
+        "items": []
+      },
+      {
+        "name": "Ancilostomíase",
+        "codes": [
+          "B76-B76"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras helmintíases",
+        "codes": [
+          "B68-B71",
+          "B75-B75",
+          "B77-B83"
+        ],
+        "items": []
+      },
+      {
+        "name": "Seqüelas de tuberculose",
+        "codes": [
+          "B90-B90"
+        ],
+        "items": []
+      },
+      {
+        "name": "Seqüelas de poliomielite",
+        "codes": [
+          "B91-B91"
+        ],
+        "items": []
+      },
+      {
+        "name": "Seqüelas de hanseníase [lepra]",
+        "codes": [
+          "B92-B92"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças infecciosas e parasitárias",
+        "codes": [
+          "A65-A67",
+          "A69-A70",
+          "A74-A74",
+          "A77-A79",
+          "B58-B64",
+          "B85-B89",
+          "B94-B99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna do lábio, cavidade oral e faringe",
+        "codes": [
+          "C00-C14"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna do esôfago",
+        "codes": [
+          "C15-C15"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna do estômago",
+        "codes": [
+          "C16-C16"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna do cólon",
+        "codes": [
+          "C18-C18"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna da junção retossigmóide, reto, ânus e canal anal",
+        "codes": [
+          "C19-C21"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna do fígado e das vias biliares intra-hepáticas",
+        "codes": [
+          "C22-C22"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna do pâncreas",
+        "codes": [
+          "C25-C25"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras neoplasias malignas de órgãos digestivos",
+        "codes": [
+          "C17-C17",
+          "C23-C24",
+          "C26-C26"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasias malignas de laringe",
+        "codes": [
+          "C32-C32"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna da traquéia, dos brônquios e dos pulmões",
+        "codes": [
+          "C33-C34"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras neoplasias malignas de órgãos respiratórios e intratorácicos",
+        "codes": [
+          "C30-C31",
+          "C37-C39"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna do osso e da cartilagem articular",
+        "codes": [
+          "C40-C41"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna da pele",
+        "codes": [
+          "C43-C43"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras neoplasias malignas da pele",
+        "codes": [
+          "C44-C44"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasias malignas do tecido mesotelial e tecidos moles",
+        "codes": [
+          "C45-C49"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna da mama",
+        "codes": [
+          "C50-C50"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna do colo do útero",
+        "codes": [
+          "C53-C53"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna de outras porções e de porções não especificadas do útero",
+        "codes": [
+          "C54-C55"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras neoplasias malignas dos órgãos genitais femininos",
+        "codes": [
+          "C51-C52",
+          "C56-C58"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna da próstata",
+        "codes": [
+          "C61-C61"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras neoplasias malignas dos órgãos genitais masculinos",
+        "codes": [
+          "C60-C60",
+          "C62-C63"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna da bexiga",
+        "codes": [
+          "C67-C67"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras neoplasias malignas do trato urinário",
+        "codes": [
+          "C64-C66",
+          "C68-C68"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna dos olhos e anexos",
+        "codes": [
+          "C69-C69"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna do encéfalo",
+        "codes": [
+          "C71-C71"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia maligna de outras partes do sistema nervoso central",
+        "codes": [
+          "C70-C70",
+          "C72-C72"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasias malignas de outras localizações, de localização mal definida, secundárias e de localização não especificada",
+        "codes": [
+          "C73-C80",
+          "C97-C97"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doença de Hodgkin",
+        "codes": [
+          "C81-C81"
+        ],
+        "items": []
+      },
+      {
+        "name": "Linfoma não-Hodgkin",
+        "codes": [
+          "C82-C85"
+        ],
+        "items": []
+      },
+      {
+        "name": "Leucemia",
+        "codes": [
+          "C91-C95"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras neoplasias malignas de tecidos linfóide, hematopoético e relacionados",
+        "codes": [
+          "C88-C90",
+          "C96-C96"
+        ],
+        "items": []
+      },
+      {
+        "name": "Carcinoma in situ de colo do útero",
+        "codes": [
+          "D06-D06"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia benigna da pele",
+        "codes": [
+          "D22-D23"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia benigna da mama",
+        "codes": [
+          "D24-D24"
+        ],
+        "items": []
+      },
+      {
+        "name": "Leiomioma do útero",
+        "codes": [
+          "D25-D25"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia benigna do ovário",
+        "codes": [
+          "D27-D27"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia benigna dos órgãos urinários",
+        "codes": [
+          "D30-D30"
+        ],
+        "items": []
+      },
+      {
+        "name": "Neoplasia benigna do encéfalo e de outras partes do sistema nervoso central",
+        "codes": [
+          "D33-D33"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras neoplasias in situ e neoplasias benignas e neoplasias de comportamento incerto ou desconhecido",
+        "codes": [
+          "D00-D05",
+          "D07-D21",
+          "D26-D26",
+          "D28-D29",
+          "D31-D32",
+          "D34-D48"
+        ],
+        "items": []
+      },
+      {
+        "name": "Anemia por deficiência de ferro",
+        "codes": [
+          "D50-D50"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras anemias",
+        "codes": [
+          "D51-D64"
+        ],
+        "items": []
+      },
+      {
+        "name": "Afecções hemorrágicas e outras doenças do sangue e dos órgãos hematopoéticos",
+        "codes": [
+          "D65-D77"
+        ],
+        "items": []
+      },
+      {
+        "name": "Alguns transtornos envolvendo o mecanismo imunitário",
+        "codes": [
+          "D80-D89"
+        ],
+        "items": []
+      },
+      {
+        "name": "Transtornos tireoidianos relacionados à deficiência de iodo",
+        "codes": [
+          "E00-E02"
+        ],
+        "items": []
+      },
+      {
+        "name": "Tireotoxicose",
+        "codes": [
+          "E05-E05"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outros transtornos tireoidianos",
+        "codes": [
+          "E03-E04",
+          "E06-E07"
+        ],
+        "items": []
+      },
+      {
+        "name": "Diabetes mellitus",
+        "codes": [
+          "E10-E14"
+        ],
+        "items": []
+      },
+      {
+        "name": "Desnutrição",
+        "codes": [
+          "E40-E46"
+        ],
+        "items": []
+      },
+      {
+        "name": "Deficiência de vitamina A",
+        "codes": [
+          "E50-E50"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras deficiências vitamínicas",
+        "codes": [
+          "E51-E56"
+        ],
+        "items": []
+      },
+      {
+        "name": "Seqüelas de desnutrição e de outras deficiências nutricionais",
+        "codes": [
+          "E64-E64"
+        ],
+        "items": []
+      },
+      {
+        "name": "Obesidade",
+        "codes": [
+          "E66-E66"
+        ],
+        "items": []
+      },
+      {
+        "name": "Depleção de volume",
+        "codes": [
+          "E86-E86"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outros transtornos endócrinos, nutricionais e metabólicos",
+        "codes": [
+          "E15-E35",
+          "E58-E63",
+          "E65-E65",
+          "E67-E85",
+          "E87-E90"
+        ],
+        "items": []
+      },
+      {
+        "name": "Demência",
+        "codes": [
+          "F00-F03"
+        ],
+        "items": []
+      },
+      {
+        "name": "Transtornos mentais e comportamentais devidos ao uso de álcool",
+        "codes": [
+          "F10-F10"
+        ],
+        "items": []
+      },
+      {
+        "name": "Transtornos mentais e comportamentais devidos ao uso de outras substâncias psicoativas",
+        "codes": [
+          "F11-F19"
+        ],
+        "items": []
+      },
+      {
+        "name": "Esquizofrenia, transtornos esquizotípicos e delirantes",
+        "codes": [
+          "F20-F29"
+        ],
+        "items": []
+      },
+      {
+        "name": "Transtornos de humor [afetivos]",
+        "codes": [
+          "F30-F39"
+        ],
+        "items": []
+      },
+      {
+        "name": "Transtornos neuróticos, transtornos relacionados com o \"stress\" e transtornos somatoformes",
+        "codes": [
+          "F40-F48"
+        ],
+        "items": []
+      },
+      {
+        "name": "Retardo mental",
+        "codes": [
+          "F70-F79"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outros transtornos mentais e comportamentais",
+        "codes": [
+          "F04-F09",
+          "F50-F69",
+          "F80-F99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças inflamatórias do sistema nervoso central",
+        "codes": [
+          "G00-G09"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doença de Parkinson",
+        "codes": [
+          "G20-G20"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doença de Alzheimer",
+        "codes": [
+          "G30-G30"
+        ],
+        "items": []
+      },
+      {
+        "name": "Esclerose múltiplas",
+        "codes": [
+          "G35-G35"
+        ],
+        "items": []
+      },
+      {
+        "name": "Epilepsia",
+        "codes": [
+          "G40-G41"
+        ],
+        "items": []
+      },
+      {
+        "name": "Enxaqueca e outras síndromes de algias cefálicos",
+        "codes": [
+          "G43-G44"
+        ],
+        "items": []
+      },
+      {
+        "name": "Acidentes vasculares cerebrais isquêmicos transitórios e síndromes correlatas",
+        "codes": [
+          "G45-G45"
+        ],
+        "items": []
+      },
+      {
+        "name": "Transtornos dos nervos, das raízes e dos plexos nervosos",
+        "codes": [
+          "G50-G59"
+        ],
+        "items": []
+      },
+      {
+        "name": "Paralisia cerebral e outras síndromes paralíticas",
+        "codes": [
+          "G80-G83"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças do sistema nervoso",
+        "codes": [
+          "G10-G13",
+          "G21-G26",
+          "G31-G32",
+          "G36-G37",
+          "G46-G47",
+          "G60-G73",
+          "G90-G99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Inflamação da pálpebra",
+        "codes": [
+          "H00-H01"
+        ],
+        "items": []
+      },
+      {
+        "name": "Conjuntivite e outros transtornos da conjuntiva",
+        "codes": [
+          "H10-H13"
+        ],
+        "items": []
+      },
+      {
+        "name": "Ceratite e outros transtornos da esclerótica e da córnea",
+        "codes": [
+          "H15-H19"
+        ],
+        "items": []
+      },
+      {
+        "name": "Catarata e outros transtornos do cristalino",
+        "codes": [
+          "H25-H28"
+        ],
+        "items": []
+      },
+      {
+        "name": "Descolamentos e defeitos da retina",
+        "codes": [
+          "H33-H33"
+        ],
+        "items": []
+      },
+      {
+        "name": "Glaucoma",
+        "codes": [
+          "H40-H42"
+        ],
+        "items": []
+      },
+      {
+        "name": "Estrabismo",
+        "codes": [
+          "H49-H50"
+        ],
+        "items": []
+      },
+      {
+        "name": "Transtornos da refração e da acomodação",
+        "codes": [
+          "H52-H52"
+        ],
+        "items": []
+      },
+      {
+        "name": "Cegueira e visão subnormal",
+        "codes": [
+          "H54-H54"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças do olho e anexos",
+        "codes": [
+          "H02-H06",
+          "H20-H22",
+          "H30-H32",
+          "H34-H36",
+          "H43-H48",
+          "H51-H51",
+          "H53-H53",
+          "H55-H59"
+        ],
+        "items": []
+      },
+      {
+        "name": "Otite média e outros transtornos do ouvido médio e da apófise mastóide",
+        "codes": [
+          "H65-H75"
+        ],
+        "items": []
+      },
+      {
+        "name": "Perda de audição",
+        "codes": [
+          "H90-H91"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças do ouvido e da apófise mastóide",
+        "codes": [
+          "H60-H62",
+          "H80-H83",
+          "H92-H95"
+        ],
+        "items": []
+      },
+      {
+        "name": "Febre reumática aguda",
+        "codes": [
+          "I00-I02"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doença reumática crônica do coração",
+        "codes": [
+          "I05-I09"
+        ],
+        "items": []
+      },
+      {
+        "name": "Hipertensão essencial (primária)",
+        "codes": [
+          "I10-I10"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças hipertensivas",
+        "codes": [
+          "I11-I15"
+        ],
+        "items": []
+      },
+      {
+        "name": "Infarto agudo do miocárdio",
+        "codes": [
+          "I21-I22"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças isquêmicas do coração",
+        "codes": [
+          "I20-I20",
+          "I23-I25"
+        ],
+        "items": []
+      },
+      {
+        "name": "Embolia pulmonar",
+        "codes": [
+          "I26-I26"
+        ],
+        "items": []
+      },
+      {
+        "name": "Transtornos de condução e arritmias cardíacas",
+        "codes": [
+          "I44-I49"
+        ],
+        "items": []
+      },
+      {
+        "name": "Insuficiência cardíaca",
+        "codes": [
+          "I50-I50"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças do coração",
+        "codes": [
+          "I27-I43",
+          "I51-I52"
+        ],
+        "items": []
+      },
+      {
+        "name": "Hemorragia intracraniana",
+        "codes": [
+          "I60-I62"
+        ],
+        "items": []
+      },
+      {
+        "name": "Infarto cerebral",
+        "codes": [
+          "I63-I63"
+        ],
+        "items": []
+      },
+      {
+        "name": "Acidente vascular cerebral, não especificado como hemorrágico ou isquêmico",
+        "codes": [
+          "I64-I64"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças cerebrovasculares",
+        "codes": [
+          "I65-I69"
+        ],
+        "items": []
+      },
+      {
+        "name": "Arteroesclerose",
+        "codes": [
+          "I70-I70"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças vasculares periféricas",
+        "codes": [
+          "I73-I73"
+        ],
+        "items": []
+      },
+      {
+        "name": "Embolia e trombose arteriais",
+        "codes": [
+          "I74-I74"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças das artérias, arteríolas e capilares",
+        "codes": [
+          "I71-I72",
+          "I77-I79"
+        ],
+        "items": []
+      },
+      {
+        "name": "Flebite, tromboflebite, embolia e trombose venosa",
+        "codes": [
+          "I80-I82"
+        ],
+        "items": []
+      },
+      {
+        "name": "Veias varicosas das extremidades inferiores",
+        "codes": [
+          "I83-I83"
+        ],
+        "items": []
+      },
+      {
+        "name": "Hemorróidas",
+        "codes": [
+          "I84-I84"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças do aparelho circulatório",
+        "codes": [
+          "I85-I99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Faringite aguda e amigdalite aguda",
+        "codes": [
+          "J02-J03"
+        ],
+        "items": []
+      },
+      {
+        "name": "Laringite e traqueíte agudas",
+        "codes": [
+          "J04-J04"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras infecções agudas das vias aéreas superiores",
+        "codes": [
+          "J00-J01",
+          "J05-J06"
+        ],
+        "items": []
+      },
+      {
+        "name": "Influenza [gripe]",
+        "codes": [
+          "J09-J11"
+        ],
+        "items": []
+      },
+      {
+        "name": "Pneumonia",
+        "codes": [
+          "J12-J18"
+        ],
+        "items": []
+      },
+      {
+        "name": "Bronquite aguda e bronquiolite aguda",
+        "codes": [
+          "J20-J21"
+        ],
+        "items": []
+      },
+      {
+        "name": "Sinusite crônica",
+        "codes": [
+          "J32-J32"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças do nariz e dos seios paranasais",
+        "codes": [
+          "J30-J31",
+          "J33-J34"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças crônicas das amígdalas e das adenóides",
+        "codes": [
+          "J35-J35"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças do trato respiratório superior",
+        "codes": [
+          "J36-J39"
+        ],
+        "items": []
+      },
+      {
+        "name": "Bronquite, enfisema e outras doenças pulmonares obstrutivas crônicas",
+        "codes": [
+          "J40-J44"
+        ],
+        "items": []
+      },
+      {
+        "name": "Asma",
+        "codes": [
+          "J45-J46"
+        ],
+        "items": []
+      },
+      {
+        "name": "Bronquiectasia",
+        "codes": [
+          "J47-J47"
+        ],
+        "items": []
+      },
+      {
+        "name": "Pneumoconiose",
+        "codes": [
+          "J60-J65"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças do aparelho respiratório",
+        "codes": [
+          "J22-J22",
+          "J66-J99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Cárie dentária",
+        "codes": [
+          "K02-K02"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outros transtornos dos dentes e estruturas de suporte",
+        "codes": [
+          "K00-K01",
+          "K03-K08"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças da cavidade oral, glândulas salivares e dos maxilares",
+        "codes": [
+          "K09-K14"
+        ],
+        "items": []
+      },
+      {
+        "name": "Úlcera gástrica e duodenal",
+        "codes": [
+          "K25-K27"
+        ],
+        "items": []
+      },
+      {
+        "name": "Gastrite e duodenite",
+        "codes": [
+          "K29-K29"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças do esôfago, estômago e duodeno",
+        "codes": [
+          "K20-K23",
+          "K28-K28",
+          "K30-K31"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças do apêndice",
+        "codes": [
+          "K35-K38"
+        ],
+        "items": []
+      },
+      {
+        "name": "Hérnia inguinal",
+        "codes": [
+          "K40-K40"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras hérnias",
+        "codes": [
+          "K41-K46"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doença de Crohn e colite ulcerativa",
+        "codes": [
+          "K50-K51"
+        ],
+        "items": []
+      },
+      {
+        "name": "Ileo paralítico e obstrução intestinal sem hérnia",
+        "codes": [
+          "K56-K56"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doença diverticular do intestino",
+        "codes": [
+          "K57-K57"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças dos intestinos e peritônio",
+        "codes": [
+          "K52-K55",
+          "K58-K67"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doença alcoólica do fígado",
+        "codes": [
+          "K70-K70"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças do fígado",
+        "codes": [
+          "K71-K77"
+        ],
+        "items": []
+      },
+      {
+        "name": "Colelitíase e colecistite",
+        "codes": [
+          "K80-K81"
+        ],
+        "items": []
+      },
+      {
+        "name": "Pancreatite aguda e outras doenças do pâncreas",
+        "codes": [
+          "K85-K86"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças do aparelho digestivo",
+        "codes": [
+          "K82-K83",
+          "K87-K93"
+        ],
+        "items": []
+      },
+      {
+        "name": "Infecções da pele e do tecido subcutâneo",
+        "codes": [
+          "L00-L08"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças da pele e do tecido subcutâneo",
+        "codes": [
+          "L10-L99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Artrite reumatóide e outras poliartropatias inflamatórias",
+        "codes": [
+          "M05-M14"
+        ],
+        "items": []
+      },
+      {
+        "name": "Artrose",
+        "codes": [
+          "M15-M19"
+        ],
+        "items": []
+      },
+      {
+        "name": "Deformidades adquiridas das articulações",
+        "codes": [
+          "M20-M21"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outros transtronos articulares",
+        "codes": [
+          "M00-M03",
+          "M22-M25"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças sistêmicas do tecido conjuntivo",
+        "codes": [
+          "M30-M36"
+        ],
+        "items": []
+      },
+      {
+        "name": "Transtornos discais cervicais e outros transtornos discais intervertebrais",
+        "codes": [
+          "M50-M51"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras dorsopatias",
+        "codes": [
+          "M40-M49",
+          "M53-M54"
+        ],
+        "items": []
+      },
+      {
+        "name": "Transtornos do tecido mole",
+        "codes": [
+          "M60-M79"
+        ],
+        "items": []
+      },
+      {
+        "name": "Transtornos da densidade e da estrutura ósseas",
+        "codes": [
+          "M80-M85"
+        ],
+        "items": []
+      },
+      {
+        "name": "Osteomielite",
+        "codes": [
+          "M86-M86"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças do sistema osteomuscular e do tecido conjuntivo",
+        "codes": [
+          "M87-M99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Síndrome nefríticas aguda e rapidamente progressiva",
+        "codes": [
+          "N00-N01"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças glomerulares",
+        "codes": [
+          "N02-N08"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças renais túbulo-intersticiais",
+        "codes": [
+          "N10-N16"
+        ],
+        "items": []
+      },
+      {
+        "name": "Insuficiência renal",
+        "codes": [
+          "N17-N19"
+        ],
+        "items": []
+      },
+      {
+        "name": "Urolitíase",
+        "codes": [
+          "N20-N23"
+        ],
+        "items": []
+      },
+      {
+        "name": "Cistite",
+        "codes": [
+          "N30-N30"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças do aparelho urinário",
+        "codes": [
+          "N25-N29",
+          "N31-N39"
+        ],
+        "items": []
+      },
+      {
+        "name": "Hiperplasia da próstata",
+        "codes": [
+          "N40-N40"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outros transtornos da próstata",
+        "codes": [
+          "N41-N42"
+        ],
+        "items": []
+      },
+      {
+        "name": "Hidrocele e espermatocele",
+        "codes": [
+          "N43-N43"
+        ],
+        "items": []
+      },
+      {
+        "name": "Preprúcio redundante, fimose e parafimose",
+        "codes": [
+          "N47-N47"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças dos órgãos genitais masculinos",
+        "codes": [
+          "N44-N46",
+          "N48-N51"
+        ],
+        "items": []
+      },
+      {
+        "name": "Transtornos da mama",
+        "codes": [
+          "N60-N64"
+        ],
+        "items": []
+      },
+      {
+        "name": "Salpingite e ooforite",
+        "codes": [
+          "N70-N70"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doença inflamatória do colo do útero",
+        "codes": [
+          "N72-N72"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras doenças inflamatórias dos órgãos pélvicos femininos",
+        "codes": [
+          "N71-N71",
+          "N73-N77"
+        ],
+        "items": []
+      },
+      {
+        "name": "Endometriose",
+        "codes": [
+          "N80-N80"
+        ],
+        "items": []
+      },
+      {
+        "name": "Prolapso genital feminino",
+        "codes": [
+          "N81-N81"
+        ],
+        "items": []
+      },
+      {
+        "name": "Transtornos não-inflamatórios do ovário, da trompa de Falópio e do ligamento largo",
+        "codes": [
+          "N83-N83"
+        ],
+        "items": []
+      },
+      {
+        "name": "Transtornos da menstruação",
+        "codes": [
+          "N91-N92"
+        ],
+        "items": []
+      },
+      {
+        "name": "Transtornos menopáusicos e outros transtornos perimenopáusicos",
+        "codes": [
+          "N95-N95"
+        ],
+        "items": []
+      },
+      {
+        "name": "Infertilidade feminina",
+        "codes": [
+          "N97-N97"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outros transtornos do aparelho geniturinário",
+        "codes": [
+          "N82-N82",
+          "N84-N90",
+          "N93-N94",
+          "N96-N96",
+          "N98-N99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Aborto espontâneo",
+        "codes": [
+          "O03-O03"
+        ],
+        "items": []
+      },
+      {
+        "name": "Aborto por razões médicas",
+        "codes": [
+          "O04-O04"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras gravidezes que terminam em aborto",
+        "codes": [
+          "O00-O02",
+          "O05-O08"
+        ],
+        "items": []
+      },
+      {
+        "name": "Edema, proteinúria e transtornos hipertensivos na gravidez, parto e puerpério",
+        "codes": [
+          "O10-O16"
+        ],
+        "items": []
+      },
+      {
+        "name": "Placenta prévia, descolamento prematuro de placenta e hemorragia anteparto",
+        "codes": [
+          "O44-O46"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outros motivos de assistência à mãe relacionados à cavidade fetal e amniótica, e possíveis problemas de parto",
+        "codes": [
+          "O30-O43",
+          "O47-O48"
+        ],
+        "items": []
+      },
+      {
+        "name": "Trabalho de parto obstruído",
+        "codes": [
+          "O64-O66"
+        ],
+        "items": []
+      },
+      {
+        "name": "Hemorragia pós-parto",
+        "codes": [
+          "O72-O72"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras complicações da gravidez e do parto",
+        "codes": [
+          "O20-O29",
+          "O60-O63",
+          "O67-O71",
+          "O73-O75",
+          "O81-O84"
+        ],
+        "items": []
+      },
+      {
+        "name": "Parto único espontâneo",
+        "codes": [
+          "O80-O80"
+        ],
+        "items": []
+      },
+      {
+        "name": "Complicações predominantemente relacionadas ao puerpério e outras afecções obstétricas, não classificadas em outra parte",
+        "codes": [
+          "O85-O99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Feto e recém-nascido afetados por fatores maternos e por complicações da gravidez, trabalho de parto e parto",
+        "codes": [
+          "P00-P04"
+        ],
+        "items": []
+      },
+      {
+        "name": "Retardo de crescimento fetal, desnutrição fetal e transtornos relacionados à gestação curta e baixo peso ao nascer",
+        "codes": [
+          "P05-P07"
+        ],
+        "items": []
+      },
+      {
+        "name": "Trauma durante o nascimento",
+        "codes": [
+          "P10-P15"
+        ],
+        "items": []
+      },
+      {
+        "name": "Hipóxia intrauterina e asfixia ao nascer",
+        "codes": [
+          "P20-P21"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outros transtornos respiratórios originados no período perinatal",
+        "codes": [
+          "P22-P28"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doenças infecciosas e parasitárias congênitas",
+        "codes": [
+          "P35-P37"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras infecções específicas do período perinatal",
+        "codes": [
+          "P38-P39"
+        ],
+        "items": []
+      },
+      {
+        "name": "Doença hemolítica do feto e do recém-nascido",
+        "codes": [
+          "P55-P55"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras afecções originadas no período perinatal",
+        "codes": [
+          "P08-P08",
+          "P29-P29",
+          "P50-P54",
+          "P56-P96"
+        ],
+        "items": []
+      },
+      {
+        "name": "Espinha bífida",
+        "codes": [
+          "Q05-Q05"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras malformações congênitas do sistema nervoso",
+        "codes": [
+          "Q00-Q04",
+          "Q06-Q72"
+        ],
+        "items": []
+      },
+      {
+        "name": "Malformações congênitas do aparelho circulatório",
+        "codes": [
+          "Q20-Q28"
+        ],
+        "items": []
+      },
+      {
+        "name": "Fenda labial e fenda palatina",
+        "codes": [
+          "Q35-Q37"
+        ],
+        "items": []
+      },
+      {
+        "name": "Ausência, atresia e estenose do intestino delgado",
+        "codes": [
+          "Q41-Q41"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras malformações congênitas do aparelho digestivo",
+        "codes": [
+          "Q38-Q40",
+          "Q42-Q45"
+        ],
+        "items": []
+      },
+      {
+        "name": "Testiculo não-descido",
+        "codes": [
+          "Q53-Q53"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras malformações do aparelho geniturinário",
+        "codes": [
+          "Q50-Q52",
+          "Q54-Q64"
+        ],
+        "items": []
+      },
+      {
+        "name": "Deformidades congênitas do quadril",
+        "codes": [
+          "Q65-Q65"
+        ],
+        "items": []
+      },
+      {
+        "name": "Deformidades congênitas dos pés",
+        "codes": [
+          "Q66-Q66"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras malformações e deformidades congênitas do aparelho osteomuscular",
+        "codes": [
+          "Q67-Q79"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras malformações congênitas",
+        "codes": [
+          "Q10-Q18",
+          "Q30-Q34",
+          "Q80-Q89"
+        ],
+        "items": []
+      },
+      {
+        "name": "Anomalias cromossômicas, não classificadas em outra parte",
+        "codes": [
+          "Q90-Q99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Dor abdominal e pélvica",
+        "codes": [
+          "R10-R10"
+        ],
+        "items": []
+      },
+      {
+        "name": "Febre de origem desconhecida",
+        "codes": [
+          "R50-R50"
+        ],
+        "items": []
+      },
+      {
+        "name": "Senilidade",
+        "codes": [
+          "R54-R54"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outros sintomas, sinais e achados anormais de exames clínicos e de laboratório, não classificados em outra parte",
+        "codes": [
+          "R00-R09",
+          "R11-R49",
+          "R51-R53",
+          "R55-R99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Fratura do crânio e dos ossos da face",
+        "codes": [
+          "S02-S02"
+        ],
+        "items": []
+      },
+      {
+        "name": "Fratura do pescoço, tórax ou pelve",
+        "codes": [
+          "S12-S12",
+          "S22-S22",
+          "S32-S32",
+          "T08-T08"
+        ],
+        "items": []
+      },
+      {
+        "name": "Fratura do fêmur",
+        "codes": [
+          "S72-S72"
+        ],
+        "items": []
+      },
+      {
+        "name": "Fratura de outros ossos dos membros",
+        "codes": [
+          "S42-S42",
+          "S52-S52",
+          "S62-S62",
+          "S82-S82",
+          "S92-S92",
+          "T10-T10",
+          "T12-T12"
+        ],
+        "items": []
+      },
+      {
+        "name": "Fraturas envolvendo múltiplas regiões do corpo",
+        "codes": [
+          "T02-T02"
+        ],
+        "items": []
+      },
+      {
+        "name": "Luxações, entorse e distensão de regiões especificadas e de regiões múltiplas do corpo",
+        "codes": [
+          "S03-S03",
+          "S13-S13",
+          "S23-S23",
+          "S33-S33",
+          "S43-S43",
+          "S53-S53",
+          "S63-S63",
+          "S73-S73",
+          "S83-S83",
+          "S93-S93",
+          "T03-T03"
+        ],
+        "items": []
+      },
+      {
+        "name": "Traumatismo do olho e da órbita ocular",
+        "codes": [
+          "S05-S05"
+        ],
+        "items": []
+      },
+      {
+        "name": "Traumatismo intracraniano",
+        "codes": [
+          "S06-S06"
+        ],
+        "items": []
+      },
+      {
+        "name": "Traumatismo de outros órgãos internos",
+        "codes": [
+          "S26-S27",
+          "S36-S37"
+        ],
+        "items": []
+      },
+      {
+        "name": "Lesões por esmagamento e amputações traumáticas de regiões especificadas e de múltiplas regiões do corpo",
+        "codes": [
+          "S07-S08",
+          "S17-S18",
+          "S28-S28",
+          "S38-S38",
+          "S47-S48",
+          "S57-S58",
+          "S67-S68",
+          "S77-S78",
+          "S87-S88",
+          "S97-S98",
+          "T04-T05"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outros traumatismos de regiões especificadas e não especificadas e de regiões múltiplas do corpo",
+        "codes": [
+          "S00-S01",
+          "S04-S04",
+          "S09-S11",
+          "S14-S16",
+          "S19-S21",
+          "S24-S25",
+          "S29-S31",
+          "S34-S35",
+          "S39-S41",
+          "S44-S46",
+          "S49-S51",
+          "S54-S56",
+          "S59-S61",
+          "S64-S66",
+          "S69-S71",
+          "S74-S76",
+          "S79-S81",
+          "S84-S86",
+          "S89-S91",
+          "S94-S96",
+          "T00-T01",
+          "T06-T07",
+          "T09-T09",
+          "T11-T11",
+          "T13-T14"
+        ],
+        "items": []
+      },
+      {
+        "name": "Efeitos de corpo estranho que entra através de orifício natural",
+        "codes": [
+          "T15-T19"
+        ],
+        "items": []
+      },
+      {
+        "name": "Queimadura e corrosões",
+        "codes": [
+          "T20-T32"
+        ],
+        "items": []
+      },
+      {
+        "name": "Envenenamento por drogas e substâncias biológicas",
+        "codes": [
+          "T36-T50"
+        ],
+        "items": []
+      },
+      {
+        "name": "Efeitos tóxicos de substâncias de origem principalmente não-medicinal",
+        "codes": [
+          "T51-T65"
+        ],
+        "items": []
+      },
+      {
+        "name": "Síndromes de maus tratos",
+        "codes": [
+          "T74-T74"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outros efeitos e os efeitos não especificados de causas externas",
+        "codes": [
+          "T33-T35",
+          "T66-T73",
+          "T75-T78"
+        ],
+        "items": []
+      },
+      {
+        "name": "Certas complicações precoces de traumatismo e complicações cirúrgicas, e da assistência médica não classificadas em outra parte",
+        "codes": [
+          "T79-T88"
+        ],
+        "items": []
+      },
+      {
+        "name": "Seqüelas de traumatismos, de envenenamento e de outras conseqüências de causas externas",
+        "codes": [
+          "T90-T98"
+        ],
+        "items": []
+      },
+      {
+        "name": "Pessoas em contato com os serviços de saúde para exame e investigação",
+        "codes": [
+          "Z00-Z13"
+        ],
+        "items": []
+      },
+      {
+        "name": "Estado de infecção assintomática pelo vírus da imunodeficiência humana [HIV]",
+        "codes": [
+          "Z21-Z21"
+        ],
+        "items": []
+      },
+      {
+        "name": "Outras pessoas com riscos potenciais à saúde relacionadas com doenças transmissíveis",
+        "codes": [
+          "Z20-Z20",
+          "Z22-Z29"
+        ],
+        "items": []
+      },
+      {
+        "name": "Anticoncepção",
+        "codes": [
+          "Z30-Z30"
+        ],
+        "items": []
+      },
+      {
+        "name": "Rastreamento (\"screening\") pré-natal e outras outras supervisões da gravidez",
+        "codes": [
+          "Z34-Z36"
+        ],
+        "items": []
+      },
+      {
+        "name": "Nascidos vivos segundo o local de nascimento",
+        "codes": [
+          "Z38-Z38"
+        ],
+        "items": []
+      },
+      {
+        "name": "Assistência e exame pós-natal",
+        "codes": [
+          "Z39-Z39"
+        ],
+        "items": []
+      },
+      {
+        "name": "Pessoas em contato com serviços de saúde para cuidados e procedimentos específicos",
+        "codes": [
+          "Z40-Z54"
+        ],
+        "items": []
+      },
+      {
+        "name": "Pessoas em contato com os serviços de saúde por outras razões",
+        "codes": [
+          "Z31-Z33",
+          "Z37-Z37",
+          "Z55-Z99"
+        ],
+        "items": []
+      },
+      {
+        "name": "Síndrome respiratória aguda grave (Severe acute respiratory syndrome) [SARS]",
+        "codes": [
+          "U04"
+        ],
+        "items": []
+      }
+    ]
+  }
+]

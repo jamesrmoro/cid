@@ -23,36 +23,75 @@ function withCors(body, init = {}) {
     return new Response(body, { ...init, headers });
 }
 
+function b64(s) {
+    // Edge runtime tem btoa/atob
+    return typeof btoa === 'function'
+        ? btoa(s)
+        : Buffer.from(s, 'utf-8').toString('base64');
+}
+
 /* ============================
-   OAuth Token (OMS)
+   OAuth Token (OMS) com fallback
    ============================ */
 async function getToken() {
     const now = Date.now();
     if (cachedToken && now < tokenExp - 30_000) return cachedToken;
 
-    const clientId = process.env.WHO_ICD_CLIENT_ID;
-    const clientSecret = process.env.WHO_ICD_CLIENT_SECRET;
+    const rawId = process.env.WHO_ICD_CLIENT_ID;
+    const rawSecret = process.env.WHO_ICD_CLIENT_SECRET;
 
-    if (!clientId || !clientSecret) {
+    if (!rawId || !rawSecret) {
         throw new Error('config_error: Missing WHO_ICD_CLIENT_ID/WHO_ICD_CLIENT_SECRET');
     }
 
-    const body = new URLSearchParams({
+    // trims defensivos (muitos "invalid_client" vêm de espaço/quebra acidental)
+    const clientId = String(rawId).trim();
+    const clientSecret = String(rawSecret).trim();
+
+    const baseBody = new URLSearchParams({
         grant_type: 'client_credentials',
         scope: SCOPE,
-        client_id: clientId,
-        client_secret: clientSecret,
     });
 
-    const r = await fetch(TOKEN_URL, {
+    // ---- Tentativa A: Authorization: Basic (client_id:client_secret) ----
+    let r = await fetch(TOKEN_URL, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body,
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            Authorization: `Basic ${b64(`${clientId}:${clientSecret}`)}`,
+        },
+        body: baseBody,
     });
+
+    // Se vier 400 invalid_client, faz Tentativa B com client_id/secret no corpo
+    if (!r.ok) {
+        const txt = await r.text().catch(() => '');
+        const isInvalidClient =
+            r.status === 400 &&
+            /invalid[_-]?client/i.test(txt || '');
+
+        if (isInvalidClient) {
+            const body2 = new URLSearchParams({
+                grant_type: 'client_credentials',
+                scope: SCOPE,
+                client_id: clientId,
+                client_secret: clientSecret,
+            });
+
+            r = await fetch(TOKEN_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: body2,
+            });
+        } else {
+            // outro erro qualquer (rede, etc.)
+            throw new Error(`token_error: ${r.status} ${txt}`);
+        }
+    }
 
     if (!r.ok) {
-        const t = await r.text().catch(() => '');
-        throw new Error(`token_error: ${r.status} ${t}`);
+        const t2 = await r.text().catch(() => '');
+        throw new Error(`token_error: ${r.status} ${t2}`);
     }
 
     const json = await r.json();
@@ -128,7 +167,7 @@ export default async function handler(req) {
             return withCors(JSON.stringify({ total: 0, results: [] }), { status: 200 });
         }
 
-        // token OMS
+        // token OMS (com fallback)
         const token = await getToken();
 
         // consulta com retry inteligente
