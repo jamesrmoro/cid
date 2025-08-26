@@ -1,8 +1,8 @@
 {
     "scripts": {
+        "dev": "next dev",
         "build": "next build",
-        "start": "next start",
-        "dev": "next dev"
+        "start": "next start"
     },
     "dependencies": {
         "next": "14.x",
